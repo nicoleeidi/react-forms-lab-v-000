@@ -16,6 +16,7 @@ class LoginForm extends React.Component {
    };
 
    handleFormSubmit = event => {
+     event.preventDefault()
      const username: this.state.username
      const password: this.state.password
 
