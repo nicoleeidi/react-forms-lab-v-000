@@ -20,6 +20,7 @@ class TwitterMessage extends React.Component {
       onChange={this.setMessage}
 
          />
+         <span>{this.props.maxChars - this.state.message.length}</span>
       </div>
     );
   }
