@@ -9,11 +9,13 @@ class LoginForm extends React.Component {
   };
   }
   handleInputChange = event => {
-  
+    this.setState({
+        username: event.target.value,
+      });
    };
 
    handleFormSubmit = event => {
-    
+
      }
 
      this.props.onSubmit({ username, password });
