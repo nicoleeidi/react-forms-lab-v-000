@@ -4,12 +4,14 @@ class LoginForm extends React.Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {username: "",
+    password: ""
+  };
   }
 handleInputChange = event => {
-  
-}
 
+}
+handleFormSubmit= 
     render() {
       return (
         <form onSubmit={this.handleFormSubmit}>
